@@ -73,7 +73,7 @@ class HybridVAE(nn.Module):
 def load_model(model_path="hybrid_model.pth"):
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model = HybridVAE(latent_dim=LATENT_DIM, num_classes=2)
-    # Ensure the model file "hybrid_model.pth" is in the same directory or adjust the path accordingly.
+   
     model.load_state_dict(torch.load(model_path, map_location=device))
     model.to(device)
     model.eval()
