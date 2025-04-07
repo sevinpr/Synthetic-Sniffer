@@ -74,5 +74,3 @@ This project is licensed under the MIT License.
 - Kaggle for providing the datasets.
 - Authors and maintainers of the pre-trained models used in this project.
 ```
-
-This README provides a comprehensive overview of the project, including installation instructions, usage, model architecture, training process, and results. Feel free to adjust any details or add more information as needed.
