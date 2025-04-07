@@ -1,4 +1,3 @@
-Certainly! Here's a README file based on the content and information from the provided notebooks.
 
 # Synthetic Sniffer
 
